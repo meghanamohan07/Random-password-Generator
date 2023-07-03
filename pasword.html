@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<!--<marquee style="width=100%; font-style=chiller;  font-size:50pt; width-top="10"; scrollamount="30";>Welcome</marquee>-->
+
+<head>
+  <!--<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <title>Random Password Generator</title>
+  
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .blink {
+        animation: blinker 1.0s linear infinite;
+        color:midnightblue;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+</style>
+
+</head>
+
+<body align="center">
+
+  <FIELDSET style="border:2px solid DodgerBlue";>
+    <p class="blink"> Created By Meghana Web Developer&#128525;</p>
+    <LEGEND style="font-family: algerian;font-size: 30px; color: #FFFFFF
+; text-shadow: 1px 1px 5px black,0 0 25px lightblue,0 0 30px blue;">PASSWORD GENERATOR</LEGEND>
+  <div class="inputBox"; style="font-family: algerian;font-size: 30px; color: #FFFFFF
+; text-shadow: 1px 1px 5px black,0 0 25px lightblue,0 0 30px blue;">
+    <h2><span>Password Generator</span></h2>
+    <h3 align="center" ><input type="text" placeholder="display password" id="password" readonly=""></h3>
+    <button id="btn" onclick="GetPassword()">
+      Generate Random Password
+    </button>
+  </div>
+  <script src="app.js"></script>
+  </body>
+
+</html>
